@@ -11,6 +11,7 @@ spec:
   #clusterIP: None
   selector:
     role: mongo
+  type: NodePort
 ---
 apiVersion: apps/v1beta1
 kind: StatefulSet
